@@ -1,0 +1,188 @@
+/*Common CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(2.jpg);
+}
+
+.body {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 75px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.logo h1 {
+    font-family: 'Merriweather', serif;
+    margin-top: 9px;
+    color: green;
+}
+.logo_image {
+    width: 50px;
+    padding: 3px;
+    border-radius: 57px;
+    margin-top: 6px;
+}
+.menu {
+    margin-left: 18rem;
+}
+.menu ul {
+    display: flex;
+    font-size: 19px;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 2px 22px;
+}
+.menu ul li a:hover {
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.nav::before {
+    content: "";
+    background-color: rgb(45, 240, 45);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+}
+.head h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: green
+}
+.head .btn {
+    padding: 6px 25px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    font-size: 16px;
+}
+.head .btn:hover {
+    background-color: rgb(45, 240, 45);
+    cursor: pointer;
+}
+/*page1 CSS*/
+.content {
+    display: flex;
+}
+.content img {
+    width: 29em;
+    height: 22rem;
+    margin-left: 2rem;
+    border-radius: 41px;
+    opacity: 0.91;
+}
+.content_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-top: 0.2rem;
+}
+.content_head h2 {
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+.content_head h4 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    padding: 7px 0px;
+    font-size: 1.4rem;
+}
+/*page2 CSS*/
+.work {
+    display: flex;
+    justify-content: space-between;
+    height: 24rem;
+}
+.box {
+    display: flex;
+    border: 2px solid green;
+    margin: 2rem 7px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.box img {
+    height: 16rem;
+    width: 20rem;
+    opacity: 0.8;
+}
+.box img:hover {
+    cursor: pointer;
+}
+.box h4 {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box h4:hover {
+    cursor: pointer;
+    color: green;
+}
+/*page2*/
+.box1 {
+    width: 838px;
+    height: 85px;
+    margin-left: 19rem;
+}
+.box1 .para2 {
+    margin-left: 9rem;
+}
+.box2 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+/*page3*/
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    margin-left: 19px;
+}
+.label {
+    margin: 2px;
+}
+.form .btn {
+    margin-top: 18px;
+    height: 34px;
+    border-radius: 48px;
+    color: green;
+    font-size: 21px;
+}
+.form .btn:hover {
+    cursor: pointer;
+    background-color: rgb(9, 204, 9);
+}
+.image img {
+    width: 29rem;
+    height: 21rem;
+    position: absolute;
+    top: 11rem;
+    left: 28rem;
+    border-radius: 74px;
+}
